@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["app"],
+    "clusteredDbApps": {},
+    "directoryPath": "../../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": " dockerhub.richrelevance.com",
+    "ingressDomain": "",
+    "istio": false,
+    "jwtSecretKey": "Y2NmOGU2ZTM5N2Y3Mzk0ZGYxMTU2MTBiNTdkZGQ1M2MyMDY0MjIxMzgzN2RlM2E5OTg4ZWM4NTQ4NTgxOWQ0MTI5MWU1MWRhODdiYzY2YWQ0ZjA3MjRjOThhMjU3OGQyMjYwNg==",
+    "kubernetesNamespace": "algo_ns",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesStorageClassName": "",
+    "kubernetesUseDynamicStorage": true,
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": false
+  }
+}

@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: app-app
+  namespace: algo_ns
+  labels:
+    team: algo_ns
+spec:
+  selector:
+    matchLabels:
+      app: app
+  endpoints:
+    - port: web
+      path: /prometheusMetrics

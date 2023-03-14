@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["app"],
+    "clusteredDbApps": {},
+    "directoryPath": "../../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": " dockerhub.richrelevance.com",
+    "ingressDomain": "local.rr.com",
+    "ingressType": "nginx",
+    "istio": false,
+    "jwtSecretKey": "YzE5ZWMyYjNiZjgwNjkyMjQwNjllM2E5YmMzZGJlNGUxYWZkM2RiODFkNDZmNGFjNzc0MWE1YzVjMmI1MmE0MDk1MDRkZDgyMTc2YzU3OTQzNGQ5MjU3NTVjNTc5ODk5NzExNg==",
+    "kubernetesNamespace": "algo_ns",
+    "kubernetesServiceType": "Ingress",
+    "kubernetesStorageClassName": "",
+    "kubernetesUseDynamicStorage": true,
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": false
+  }
+}
